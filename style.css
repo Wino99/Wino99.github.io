@@ -14,7 +14,7 @@ div#content
     margin: 0 auto;
     grid-template-areas:
     "header header header header"
-    "project1 project2 project3 ."
+    "project1 project2 project3 project4"
     "footer footer footer footer";
 }
 /*För mobiler*/
@@ -33,6 +33,7 @@ div#content
         "project1 project1"
         "project2 project2"
         "project3 project3"
+	"project4 project4"
         "footer footer";
     }
 }
@@ -78,24 +79,24 @@ footer
 
 a
 {
-	padding: 10px;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: #9ca2f0;
-	width: 100%;
-	height: 50px;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #9ca2f0;
+    width: 100%;
+    height: 50px;
     font-size: 1.5rem;
-	font-weight: bold;
+    font-weight: bold;
     margin: auto;
     background-color: #5c5c5c;
     overflow: hidden;
-	text-align: left;
+    text-align: left;
     display: block;
     color: white;
     background-color: #5c5c5c;
     text-decoration: none;
-	text-align: center;
-	vertical-align: center;
+    text-align: center;
+    vertical-align: center;
 }
 a:hover
 {
